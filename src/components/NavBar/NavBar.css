@@ -1,0 +1,40 @@
+.navbar   {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #641616 ;
+    border-bottom: 5px solid #541388;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav   {
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  
+  .nav-item   {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem;
+  }
+  
+  .nav-link  {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 3px solid #FF8100;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 3px solid #541388;
+  }
+
+  .active   {
+    border-bottom: 3px solid #541388;
+  }
